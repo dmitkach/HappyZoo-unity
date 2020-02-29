@@ -354,37 +354,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd89d8537ff765543a9c31c8e221ec37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backaudio: {fileID: 895334554}
+  backAudio: {fileID: 895334554}
   sound: {fileID: 1031874617}
-  losesound: {fileID: 460292770}
-  endsound: {fileID: 689634062}
+  lossSound: {fileID: 460292770}
+  endSound: {fileID: 689634062}
   round: {fileID: 0}
   rect: {fileID: 0}
   close: {fileID: 0}
   triangle: {fileID: 0}
-  plround: {fileID: 0}
-  plrect: {fileID: 0}
-  pltriangle: {fileID: 0}
-  plclose: {fileID: 0}
-  LoseTextObj1: {fileID: 0}
-  LoseTextObj2: {fileID: 0}
-  StartTextObj: {fileID: 0}
-  StatTextObj: {fileID: 0}
-  ResText: {fileID: 0}
-  LoseText1: {fileID: 0}
-  LoseText2: {fileID: 0}
-  StartText: {fileID: 0}
-  StatText: {fileID: 0}
-  Result1: 0
-  High1: 0
-  Result2: 0
-  High2: 0
-  Result3: 0
-  High3: 0
+  playerRound: {fileID: 0}
+  playerRect: {fileID: 0}
+  playerTriangle: {fileID: 0}
+  playerClose: {fileID: 0}
+  loseTextObj1: {fileID: 0}
+  loseTextObj2: {fileID: 0}
+  startTextObj: {fileID: 0}
+  statTextObj: {fileID: 0}
+  resText: {fileID: 0}
+  loseText1: {fileID: 0}
+  loseText2: {fileID: 0}
+  statText: {fileID: 0}
+  result1: 0
+  high1: 0
+  result2: 0
+  high2: 0
+  result3: 0
+  high3: 0
   time: -1
-  LoseFlag: 0
-  StartFlag: 0
-  IsLose: 0
+  loseFlag: 0
+  startFlag: 0
+  isLose: 0
   cam: {fileID: 519420031}
 --- !u!1 &213450099
 GameObject:
@@ -522,10 +521,10 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: '''1'' - best: 0 points.
 
-''        2'' - best: 0 seconds.
+''            2'' - best: 0 seconds.
 
-''        3''
-    - best: 0 points.'
+''           
+    3'' - best: 0 points.'
 --- !u!222 &238972054
 CanvasRenderer:
   m_ObjectHideFlags: 0
